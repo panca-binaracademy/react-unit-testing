@@ -6,7 +6,7 @@ const TodoFooter = props => {
   return (
     <div className={style.todoFooter}>
         { !props.todoLength &&
-            <p>Awesome!! You have free time!!</p>
+            <p>Awesome!! You have free time now!!</p>
         }
         {props.todoLength > 0 &&
             <p>You have {props.todoLength} {props.todoLength > 1 ? 'tasks' : 'task' }</p>
